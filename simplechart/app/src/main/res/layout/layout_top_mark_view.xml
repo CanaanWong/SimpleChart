@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chart.charles.com.simplechart.chart.BubbleLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                     xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                     android:id="@+id/bubble_layout"
+                                                     android:layout_width="wrap_content"
+                                                     android:layout_height="25dp"
+                                                     app:angle="5dp"
+                                                     android:gravity="center"
+                                                     app:arrowCenter="true"
+                                                     app:arrowLocation="bottom"
+                                                     app:arrowPosition="10dp"
+                                                     app:arrowHeight="5dp"
+                                                     app:arrowWidth="8dp"
+                                                     app:bubbleColor="@color/red">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tvContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="12222222"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/white"
+        android:textSize="11sp"
+        />
+
+</chart.charles.com.simplechart.chart.BubbleLinearLayout>
